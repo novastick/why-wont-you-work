@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://MainGame/MainGame.tscn" type="PackedScene" id=1]
+
+[sub_resource type="Theme" id=1]
+
+[node name="spaceinvaders clone " instance=ExtResource( 1 )]
+theme = SubResource( 1 )
+countdownmax = 15
